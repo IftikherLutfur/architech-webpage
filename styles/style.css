@@ -104,8 +104,19 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
+.some{
+    color: var(--Dark-01, #131313);
+font-size: 45px;
+font-weight: 700;
+}
+.many{
+    color: var(--Dark-03, #727272);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+}
 
-
+/**/
 @media screen and (max-width: 576px) {
     header{
         padding: 15px;
