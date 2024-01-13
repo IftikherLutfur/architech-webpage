@@ -115,6 +115,23 @@ font-size: 16px;
 font-weight: 400;
 line-height: 26px; 
 }
+.card{
+    border-radius: 8px;
+border: 1px solid #FF900E;
+text-align: center;
+padding: 40px;
+}
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.card-stats{
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.card-title{
+    margin-top: 0PX;
+}
 
 /**/
 @media screen and (max-width: 576px) {
